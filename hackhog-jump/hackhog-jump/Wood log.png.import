@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cje1uer0tbe63"
-path="res://.godot/imported/tramp (1).png-eb94e657d607974faa9efe90b8021484.ctex"
+uid="uid://bpnguoqwsqj7t"
+path="res://.godot/imported/Wood log.png-f8892d2ecaa6921a92d76b22d7746a83.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tramp (1).png"
-dest_files=["res://.godot/imported/tramp (1).png-eb94e657d607974faa9efe90b8021484.ctex"]
+source_file="res://Wood log.png"
+dest_files=["res://.godot/imported/Wood log.png-f8892d2ecaa6921a92d76b22d7746a83.ctex"]
 
 [params]
 

@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://jqm4tr5ov7rl"]
+
+[ext_resource type="PackedScene" uid="uid://bbvwtlrsl2nph" path="res://Instances/player.tscn" id="1_s6dok"]
+[ext_resource type="Texture2D" uid="uid://bpvxv04pivfsu" path="res://Screenshot 2026-11-22 141913.png" id="2_1kc1q"]
+[ext_resource type="Script" uid="uid://31at1uctik2y" path="res://Instances/Script/player.gd" id="2_5fb3c"]
+[ext_resource type="PackedScene" uid="uid://bort3tiuhdbg3" path="res://scenes/platformm.tscn" id="3_4msxo"]
+
+[node name="World" type="Node2D" unique_id=761692905]
+
+[node name="player" parent="." unique_id=1203391686 instance=ExtResource("1_s6dok")]
+script = ExtResource("2_5fb3c")
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="." unique_id=1691762163]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground" unique_id=1307019009]
+motion_mirroring = Vector2(560, 800)
+
+[node name="TextureRect" type="TextureRect" parent="ParallaxBackground/ParallaxLayer" unique_id=1765794540]
+offset_left = -291.0
+offset_top = -573.0
+offset_right = 1141.0
+offset_bottom = 1401.0
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_1kc1q")
+stretch_mode = 1
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1763125239]
+position = Vector2(-12, -1)
+
+[node name="Platformcontainer" type="Node2D" parent="." unique_id=726019994]
+
+[node name="Platformm" parent="Platformcontainer" unique_id=1672726351 instance=ExtResource("3_4msxo")]
+position = Vector2(5, 246)
