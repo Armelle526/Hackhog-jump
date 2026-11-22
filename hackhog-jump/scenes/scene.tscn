@@ -8,6 +8,7 @@
 
 [node name="World" type="Node2D" unique_id=761692905]
 script = ExtResource("1_gjmho")
+platform_scene = ExtResource("3_4msxo")
 
 [node name="player" parent="." unique_id=1203391686 instance=ExtResource("1_s6dok")]
 script = ExtResource("2_5fb3c")
@@ -35,13 +36,17 @@ position = Vector2(-12, -1)
 position = Vector2(12, 260)
 
 [node name="Platformm2" parent="Platformcontainer" unique_id=897697017 instance=ExtResource("3_4msxo")]
+visible = false
 position = Vector2(-157, -81)
 
 [node name="Platformm3" parent="Platformcontainer" unique_id=1795532380 instance=ExtResource("3_4msxo")]
+visible = false
 position = Vector2(158, 47)
 
 [node name="Platformm4" parent="Platformcontainer" unique_id=1328076935 instance=ExtResource("3_4msxo")]
+visible = false
 position = Vector2(-166, 134)
 
 [node name="Platformm5" parent="Platformcontainer" unique_id=971570313 instance=ExtResource("3_4msxo")]
+visible = false
 position = Vector2(68, -145)
