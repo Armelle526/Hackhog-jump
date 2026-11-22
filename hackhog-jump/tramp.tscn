@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://b7s6ue4fludvy"]
+
+[ext_resource type="Texture2D" uid="uid://cje1uer0tbe63" path="res://tramp (1).png" id="1_inx8s"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=349259781]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1916343190]
+position = Vector2(648, 336)
+texture = ExtResource("1_inx8s")
