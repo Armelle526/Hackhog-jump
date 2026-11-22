@@ -1,0 +1,15 @@
+78098b89c88a74ebe8c20117b8754620
+::res://::1795364011
+Background.png::CompressedTexture2D::4542180184952968563::1795349400::1795349414::1::::<><><>0<>0<>31216a8e4a0f8edbe8e43670cdb78c53<>res://.godot/imported/Background.png-d346e9ce37c7294bb8a0c89de5d380cd.ctex::
+berry (2).png::CompressedTexture2D::4555154888862151019::1795353093::1795353164::1::::<><><>0<>0<>d3620187eb84b8758aae777aa3486fea<>res://.godot/imported/berry (2).png-cbd9695db104b2082e613439f2ce2d34.ctex::
+berry.tscn::PackedScene::1065379773934949258::1795353164::0::1::::<><><>0<>0<><>::uid://b55s0aihjjcbj::::res://berry (2).png
+block.png::CompressedTexture2D::2043525310076018805::1795353093::1795353164::1::::<><><>0<>0<>8ce679bdfca13f695059dc410f5cb2c4<>res://.godot/imported/block.png-b7fed0a755ada244f74f9622a987e81f.ctex::
+Hedgehog.png::CompressedTexture2D::2536199565425285773::1795345112::1795345768::1::::<><><>0<>0<>5b52cfea0c74eb5c9f1de89ec75bb0e2<>res://.godot/imported/Hedgehog.png-a566888ea86443bcc81b1d9807c5e42c.ctex::
+icon.svg::CompressedTexture2D::1779064595093681577::1795343217::1795343229::1::::<><><>0<>0<>a930e385eac12aa7e6eaddbbee9fd510<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+level_1.tscn::PackedScene::8571737874123156298::1795353093::0::1::::<><><>0<>0<><>::uid://qkctemiehejk::::res://player.tscn
+player.gd::GDScript::7817644595443122271::1795352988::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player.tscn::PackedScene::1143820868819004228::1795353814::0::1::::<><><>0<>0<><>::uid://bces3o05w7ndt::::res://Hedgehog.png<>uid://djm6p10os3kjf::::res://player.gd<>uid://b5yjbq5mwhuw6::::res://Background.png
+tramp (1).png::CompressedTexture2D::5414413066351155298::1795353093::1795353164::1::::<><><>0<>0<>3d89d9a19d45da832093101a5f5ac612<>res://.godot/imported/tramp (1).png-eb94e657d607974faa9efe90b8021484.ctex::
+tramp.tscn::PackedScene::4671540677472467358::1795353164::0::1::::<><><>0<>0<><>::uid://cje1uer0tbe63::::res://tramp (1).png
+Wood log.png::CompressedTexture2D::7019946041398721710::1795351397::1795351398::1::::<><><>0<>0<>a89cd2770719467e58eaceddef287d2e<>res://.godot/imported/Wood log.png-f8892d2ecaa6921a92d76b22d7746a83.ctex::
+woodlog.tscn::PackedScene::2391699144904599106::1795352027::0::1::::<><><>0<>0<><>::uid://c7arqro73kosc::::res://Wood log.png
