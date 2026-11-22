@@ -11,11 +11,14 @@ config_version=5
 [application]
 
 config/name="Hackhog jump"
+run/main_scene="uid://jqm4tr5ov7rl"
 config/features=PackedStringArray("4.7", "Mobile")
 config/icon="res://icon.svg"
 
 [display]
 
+window/size/viewport_width=560
+window/size/viewport_height=800
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
 
