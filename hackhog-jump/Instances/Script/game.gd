@@ -14,4 +14,4 @@ func level_generator(amount):
 	pass
 	
 func _ready() -> void:
-	level_generator(100)
+	level_generator(50)
