@@ -1,5 +1,4 @@
-extends StaticBody2D
-
+extends CharacterBody2D
 
 
 func _ready() -> void:
