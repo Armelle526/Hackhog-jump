@@ -21,9 +21,9 @@ shape = SubResource("RectangleShape2D_okps7")
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=1359056037]
 texture_filter = 1
-offset_left = -307.0
-offset_top = -1072.0
-offset_right = 847.0
-offset_bottom = -424.0
+offset_left = -237.0
+offset_top = -36.0
+offset_right = 1121.0
+offset_bottom = 905.0
 texture = ExtResource("2_onrkg")
 stretch_mode = 1
