@@ -1,12 +1,14 @@
 [gd_scene format=3 uid="uid://qkctemiehejk"]
 
 [ext_resource type="Texture2D" uid="uid://bces3o05w7ndt" path="res://Hedgehog.png" id="1_4flbx"]
+[ext_resource type="Script" uid="uid://djm6p10os3kjf" path="res://player.gd" id="1_i3pqv"]
 [ext_resource type="Texture2D" uid="uid://b5yjbq5mwhuw6" path="res://Background.png" id="2_onrkg"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_okps7"]
 size = Vector2(378, 308)
 
 [node name="player" type="CharacterBody2D" unique_id=1097336191]
+script = ExtResource("1_i3pqv")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=62167598]
 position = Vector2(1769, -342.00003)
@@ -14,7 +16,7 @@ scale = Vector2(0.9824074, 1.0485997)
 texture = ExtResource("1_4flbx")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2133548589]
-position = Vector2(1432, -22)
+position = Vector2(1714, -387)
 shape = SubResource("RectangleShape2D_okps7")
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=1359056037]
